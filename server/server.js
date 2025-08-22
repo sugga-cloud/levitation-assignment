@@ -12,7 +12,7 @@ connectDB();
 const app = express();
 app.use(json());
 app.use(cors({
-  origin: "http://localhost:5173",
+  origin: "http://localhost:https://levitation-assignment-1-dfzs.onrender.com",
   methods: ["GET", "POST", "PUT", "DELETE"],
   credentials: true
 }));
